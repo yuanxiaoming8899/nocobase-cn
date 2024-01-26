@@ -1,79 +1,84 @@
-English | [中文](./README.zh-CN.md)
- 
-![NocoBase](https://nocobase-file.oss-cn-beijing.aliyuncs.com/main-l.png)
-
-**Note:** 📌
-
-NocoBase is in early stage of development and is subject to frequent changes, please use caution in production environments.
-
-## Recent major updates
-
-- [v0.19: Application process optimization - 2024/01/08](https://blog.nocobase.com/posts/release-v019/)
-- [v0.18: Establish a sound testing system - 2023/12/21](https://blog.nocobase.com/posts/release-v018/)
-- [v0.17: New SchemaInitializer and SchemaSettings - 2023/12/11](https://blog.nocobase.com/posts/release-v017/)
-- [v0.16: New cache manager - 2023/11/20](https://blog.nocobase.com/posts/release-v016/)
-- [v0.15: New plugin settings manager - 2023/11/13](https://blog.nocobase.com/posts/release-v015/)
-- [v0.14: New plugin manager, supports adding plugins through UI - 2023/09/11](https://blog.nocobase.com/posts/release-v014/)
-- [v0.13: New application status flow - 2023/08/24](https://blog.nocobase.com/posts/release-v013/)
-- [v0.12: New plugin build tool - 2023/08/01](https://blog.nocobase.com/posts/release-v012/)
-- [v0.11: New client application, plugin and router - 2023/07/08](https://blog.nocobase.com/posts/release-v011/)
-
-## What is NocoBase
-
-NocoBase is a scalability-first, open-source no-code development platform.   
-Instead of investing years of time and millions of dollars in research and development, deploy NocoBase in a few minutes and you'll have a private, controllable, and extremely scalable no-code development platform!
-
-Homepage:  
-https://www.nocobase.com/  
-
-Online Demo:  
-https://demo.nocobase.com/new
-
-Documents:  
-https://docs.nocobase.com/
-
-Contact Us:  
-hello@nocobase.com
-
-## Distinctive features
-
-### 1. Model-driven, separate "user interface" from "data structure"
-
-Most form-, table-, or process-driven no-code products create data structures directly in the user interface, such as Airtable, where adding a new column to a table is adding a new field. This has the advantage of simplicity of use, but the disadvantage of limited functionality and flexibility to meet the needs of more complex scenarios.
-
-NocoBase adopts the design idea of separating the data structure from the user interface, allowing you to create any number of blocks (data views) for the data collections, with different type, styles, content, and actions in each block. This balances the simplicity of no-code operation with the flexibility of native development.
-
-![model](https://nocobase-file.oss-cn-beijing.aliyuncs.com/model-l.png)
-
-### 2. What you see is what you get
-
-NocoBase enables the development of complex and distinctive business systems, but this does not mean that complex and specialized operations are required. With a single click, configuration options are displayed on the usage interface, and administrators with system configuration privileges can directly configure the user interface in a WYSIWYG manner.
-
-![wysiwyg](https://nocobase-file.oss-cn-beijing.aliyuncs.com/wysiwyg.gif)
-
-### 3. Functions as plugins
-
-NocoBase adopts plugin architecture, all new functions can be realized by developing and installing plugins, and expanding the functions is as easy as installing an APP on your phone.
-
-![plugins](https://nocobase-file.oss-cn-beijing.aliyuncs.com/plugins-l.png)
-
-## Installation
-
-NocoBase supports three installation methods:
-
-- <a target="_blank" href="https://docs.nocobase.com/welcome/getting-started/installation/docker-compose">Installing With Docker (👍Recommended)</a>
-
-  Suitable for no-code scenarios, no code to write. When upgrading, just download the latest image and reboot.
-
-- <a target="_blank" href="https://docs.nocobase.com/welcome/getting-started/installation/create-nocobase-app">Installing from create-nocobase-app CLI</a>
-
-  The business code of the project is completely independent and supports low-code development.
-
-- <a target="_blank" href="https://docs.nocobase.com/welcome/getting-started/installation/git-clone">Installing from Git source code</a>
-
-  If you want to experience the latest unreleased version, or want to participate in the contribution, you need to make changes and debug on the source code, it is recommended to choose this installation method, which requires a high level of development skills, and if the code has been updated, you can git pull the latest code.
-
-## License
-
-- [Core packages](https://github.com/nocobase/nocobase/tree/main/packages/core) are [Apache 2.0 licensed](./LICENSE-APACHE-2.0).
-- [Plugins packages](https://github.com/nocobase/nocobase/tree/main/packages/plugins) are [AGPL 3.0 licensed](./LICENSE-AGPL).
+<div class="Box-sc-g0xbh4-0 bJMeLZ js-snippet-clipboard-copy-unpositioned" data-hpc="true"><article class="markdown-body entry-content container-lg" itemprop="text"><p dir="auto">English | <a href="/nocobase/nocobase/blob/main/README.zh-CN.md">中文</a></p>
+<p dir="auto"><a target="_blank" rel="noopener noreferrer nofollow" href="https://camo.githubusercontent.com/72865e4fa4a341a345f4dc610b92f33f839160144759cc8d0c8d3b8464875ed1/68747470733a2f2f6e6f636f626173652d66696c652e6f73732d636e2d6265696a696e672e616c6979756e63732e636f6d2f6d61696e2d6c2e706e67"><img src="https://camo.githubusercontent.com/72865e4fa4a341a345f4dc610b92f33f839160144759cc8d0c8d3b8464875ed1/68747470733a2f2f6e6f636f626173652d66696c652e6f73732d636e2d6265696a696e672e616c6979756e63732e636f6d2f6d61696e2d6c2e706e67" alt="诺科基地" data-canonical-src="https://nocobase-file.oss-cn-beijing.aliyuncs.com/main-l.png" style="max-width: 100%;"></a></p>
+<p dir="auto"><strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">注意：</font></font></strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;"> 📌</font></font></p>
+<p dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">NocoBase处于开发早期，变更频繁，请在生产环境中谨慎使用。</font></font></p>
+<h2 tabindex="-1" dir="auto"><a id="user-content-recent-major-updates" class="anchor" aria-hidden="true" tabindex="-1" href="#recent-major-updates"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">最近的主要更新</font></font></h2>
+<ul dir="auto">
+<li><a href="https://blog.nocobase.com/posts/release-v019/" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">v0.19：应用流程优化 - 2024/01/08</font></font></a></li>
+<li><a href="https://blog.nocobase.com/posts/release-v018/" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">v0.18：建立完善的测试体系 - 2023/12/21</font></font></a></li>
+<li><a href="https://blog.nocobase.com/posts/release-v017/" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">v0.17：新的 SchemaInitializer 和 SchemaSettings - 2023/12/11</font></font></a></li>
+<li><a href="https://blog.nocobase.com/posts/release-v016/" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">v0.16：新的缓存管理器 - 2023/11/20</font></font></a></li>
+<li><a href="https://blog.nocobase.com/posts/release-v015/" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">v0.15：新插件设置管理器 - 2023/11/13</font></font></a></li>
+<li><a href="https://blog.nocobase.com/posts/release-v014/" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">v0.14：新增插件管理器，支持通过UI添加插件 - 2023/09/11</font></font></a></li>
+<li><a href="https://blog.nocobase.com/posts/release-v013/" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">v0.13：新的应用程序状态流程 - 2023/08/24</font></font></a></li>
+<li><a href="https://blog.nocobase.com/posts/release-v012/" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">v0.12：新插件构建工具 - 2023/08/01</font></font></a></li>
+<li><a href="https://blog.nocobase.com/posts/release-v011/" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">v0.11：新的客户端应用程序、插件和路由器 - 2023/07/08</font></font></a></li>
+</ul>
+<h2 tabindex="-1" dir="auto"><a id="user-content-what-is-nocobase" class="anchor" aria-hidden="true" tabindex="-1" href="#what-is-nocobase"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">什么是NocoBase</font></font></h2>
+<p dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">NocoBase 是一个可扩展性第一的开源无代码开发平台。</font></font><br><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">
+无需投入数年时间和数百万美元进行研发，只需几分钟即可部署NocoBase，您将拥有一个私有的、可控的、可扩展性极高的无代码开发平台！</font></font></p>
+<p dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">主页： https: </font></font><br>
+<a href="https://www.nocobase.com/" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">//www.nocobase.com/</font></font></a></p>
+<p dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">在线演示： https: </font></font><br>
+<a href="https://demo.nocobase.com/new" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">//demo.nocobase.com/new</font></font></a></p>
+<p dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">文档： https: </font></font><br>
+<a href="https://docs.nocobase.com/" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">//docs.nocobase.com/</font></font></a></p>
+<p dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">联系我们：</font></font><br>
+<a href="mailto:hello@nocobase.com"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">hello@nocobase.com</font></font></a></p>
+<h2 tabindex="-1" dir="auto"><a id="user-content-distinctive-features" class="anchor" aria-hidden="true" tabindex="-1" href="#distinctive-features"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">特色鲜明</font></font></h2>
+<h3 tabindex="-1" dir="auto"><a id="user-content-1-model-driven-separate-user-interface-from-data-structure" class="anchor" aria-hidden="true" tabindex="-1" href="#1-model-driven-separate-user-interface-from-data-structure"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">1. 模型驱动，将“用户界面”与“数据结构”分离</font></font></h3>
+<p dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">大多数表单、表或流程驱动的无代码产品直接在用户界面中创建数据结构，例如 Airtable，其中向表添加新列就是添加新字段。</font><font style="vertical-align: inherit;">这样做的优点是使用简单，但缺点是功能有限，无法灵活满足更复杂场景的需求。</font></font></p>
+<p dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">NocoBase采用数据结构与用户界面分离的设计思想，允许您为数据集合创建任意数量的块（数据视图），每个块中具有不同的类型、样式、内容和操作。</font><font style="vertical-align: inherit;">这平衡了无代码操作的简单性与本机开发的灵活性。</font></font></p>
+<p dir="auto"><a target="_blank" rel="noopener noreferrer nofollow" href="https://camo.githubusercontent.com/be55c109eed54ae04171bf7399973a3614ff8a21fccfd6d59482349d80377958/68747470733a2f2f6e6f636f626173652d66696c652e6f73732d636e2d6265696a696e672e616c6979756e63732e636f6d2f6d6f64656c2d6c2e706e67"><img src="https://camo.githubusercontent.com/be55c109eed54ae04171bf7399973a3614ff8a21fccfd6d59482349d80377958/68747470733a2f2f6e6f636f626173652d66696c652e6f73732d636e2d6265696a696e672e616c6979756e63732e636f6d2f6d6f64656c2d6c2e706e67" alt="模型" data-canonical-src="https://nocobase-file.oss-cn-beijing.aliyuncs.com/model-l.png" style="max-width: 100%;"></a></p>
+<h3 tabindex="-1" dir="auto"><a id="user-content-2-what-you-see-is-what-you-get" class="anchor" aria-hidden="true" tabindex="-1" href="#2-what-you-see-is-what-you-get"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">2.所见即所得</font></font></h3>
+<p dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">NocoBase可以开发复杂、有特色的业务系统，但这并不意味着需要复杂、专业的操作。</font><font style="vertical-align: inherit;">只需单击一下，配置选项就会显示在使用界面上，具有系统配置权限的管理员可以直接以所见即所得的方式配置用户界面。</font></font></p>
+<p dir="auto"><animated-image data-catalyst=""><a target="_blank" rel="noopener noreferrer nofollow" href="https://camo.githubusercontent.com/d3c4a6e1471bac92cb0d5fccb771f72f7e254c42c6598f5239e96ef093e3670c/68747470733a2f2f6e6f636f626173652d66696c652e6f73732d636e2d6265696a696e672e616c6979756e63732e636f6d2f777973697779672e676966" data-target="animated-image.originalLink"><img src="https://camo.githubusercontent.com/d3c4a6e1471bac92cb0d5fccb771f72f7e254c42c6598f5239e96ef093e3670c/68747470733a2f2f6e6f636f626173652d66696c652e6f73732d636e2d6265696a696e672e616c6979756e63732e636f6d2f777973697779672e676966" alt="所见即所得" data-canonical-src="https://nocobase-file.oss-cn-beijing.aliyuncs.com/wysiwyg.gif" style="max-width: 100%; display: inline-block;" data-target="animated-image.originalImage"></a>
+      <span class="AnimatedImagePlayer" data-target="animated-image.player" hidden="">
+        <a data-target="animated-image.replacedLink" class="AnimatedImagePlayer-images" href="https://camo.githubusercontent.com/d3c4a6e1471bac92cb0d5fccb771f72f7e254c42c6598f5239e96ef093e3670c/68747470733a2f2f6e6f636f626173652d66696c652e6f73732d636e2d6265696a696e672e616c6979756e63732e636f6d2f777973697779672e676966" target="_blank">
+          
+        <span data-target="animated-image.imageContainer">
+            <img data-target="animated-image.replacedImage" alt="所见即所得" class="AnimatedImagePlayer-animatedImage" src="https://camo.githubusercontent.com/d3c4a6e1471bac92cb0d5fccb771f72f7e254c42c6598f5239e96ef093e3670c/68747470733a2f2f6e6f636f626173652d66696c652e6f73732d636e2d6265696a696e672e616c6979756e63732e636f6d2f777973697779672e676966" style="display: block; opacity: 1;">
+          <canvas class="AnimatedImagePlayer-stillImage" aria-hidden="true" width="814" height="547"></canvas></span></a>
+        <button data-target="animated-image.imageButton" class="AnimatedImagePlayer-images" tabindex="-1" aria-label="玩所见即所得" hidden=""></button>
+        <span class="AnimatedImagePlayer-controls" data-target="animated-image.controls" hidden="">
+          <button data-target="animated-image.playButton" class="AnimatedImagePlayer-button" aria-label="玩所见即所得">
+            <svg aria-hidden="true" focusable="false" class="octicon icon-play" width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path d="M4 13.5427V2.45734C4 1.82607 4.69692 1.4435 5.2295 1.78241L13.9394 7.32507C14.4334 7.63943 14.4334 8.36057 13.9394 8.67493L5.2295 14.2176C4.69692 14.5565 4 14.1739 4 13.5427Z">
+            </path></svg>
+            <svg aria-hidden="true" focusable="false" class="octicon icon-pause" width="16" height="16" viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg">
+              <rect x="4" y="2" width="3" height="12" rx="1"></rect>
+              <rect x="9" y="2" width="3" height="12" rx="1"></rect>
+            </svg>
+          </button>
+          <a data-target="animated-image.openButton" aria-label="在新窗口中打开所见即所得" class="AnimatedImagePlayer-button" href="https://camo.githubusercontent.com/d3c4a6e1471bac92cb0d5fccb771f72f7e254c42c6598f5239e96ef093e3670c/68747470733a2f2f6e6f636f626173652d66696c652e6f73732d636e2d6265696a696e672e616c6979756e63732e636f6d2f777973697779672e676966" target="_blank">
+            <svg aria-hidden="true" class="octicon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16">
+              <path fill-rule="evenodd" d="M10.604 1h4.146a.25.25 0 01.25.25v4.146a.25.25 0 01-.427.177L13.03 4.03 9.28 7.78a.75.75 0 01-1.06-1.06l3.75-3.75-1.543-1.543A.25.25 0 0110.604 1zM3.75 2A1.75 1.75 0 002 3.75v8.5c0 .966.784 1.75 1.75 1.75h8.5A1.75 1.75 0 0014 12.25v-3.5a.75.75 0 00-1.5 0v3.5a.25.25 0 01-.25.25h-8.5a.25.25 0 01-.25-.25v-8.5a.25.25 0 01.25-.25h3.5a.75.75 0 000-1.5h-3.5z"></path>
+            </svg>
+          </a>
+        </span>
+      </span></animated-image></p>
+<h3 tabindex="-1" dir="auto"><a id="user-content-3-functions-as-plugins" class="anchor" aria-hidden="true" tabindex="-1" href="#3-functions-as-plugins"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">3. 插件功能</font></font></h3>
+<p dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">NocoBase采用插件架构，所有新功能都可以通过开发和安装插件来实现，扩展功能就像在手机上安装APP一样简单。</font></font></p>
+<p dir="auto"><a target="_blank" rel="noopener noreferrer nofollow" href="https://camo.githubusercontent.com/9d35a0f6aba5385e734f3775fa1b352e6d0ae46bf69f8afc3a6018259c11695e/68747470733a2f2f6e6f636f626173652d66696c652e6f73732d636e2d6265696a696e672e616c6979756e63732e636f6d2f706c7567696e732d6c2e706e67"><img src="https://camo.githubusercontent.com/9d35a0f6aba5385e734f3775fa1b352e6d0ae46bf69f8afc3a6018259c11695e/68747470733a2f2f6e6f636f626173652d66696c652e6f73732d636e2d6265696a696e672e616c6979756e63732e636f6d2f706c7567696e732d6c2e706e67" alt="插件" data-canonical-src="https://nocobase-file.oss-cn-beijing.aliyuncs.com/plugins-l.png" style="max-width: 100%;"></a></p>
+<h2 tabindex="-1" dir="auto"><a id="user-content-installation" class="anchor" aria-hidden="true" tabindex="-1" href="#installation"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">安装</font></font></h2>
+<p dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">NocoBase支持三种安装方式：</font></font></p>
+<ul dir="auto">
+<li>
+<p dir="auto"><a href="https://docs.nocobase.com/welcome/getting-started/installation/docker-compose" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">使用 Docker 安装（👍推荐）</font></font></a></p>
+<p dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">适合无代码场景，无需编写代码。</font><font style="vertical-align: inherit;">升级时，只需下载最新的镜像并重新启动即可。</font></font></p>
+</li>
+<li>
+<p dir="auto"><a href="https://docs.nocobase.com/welcome/getting-started/installation/create-nocobase-app" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">从 create-nocobase-app CLI 安装</font></font></a></p>
+<p dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">项目业务代码完全独立，支持低代码开发。</font></font></p>
+</li>
+<li>
+<p dir="auto"><a href="https://docs.nocobase.com/welcome/getting-started/installation/git-clone" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">从 Git 源代码安装</font></font></a></p>
+<p dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">如果你想体验最新的未发布版本，或者想参与贡献，需要对源码进行修改和调试，建议选择这种安装方式，对开发水平要求较高，并且如果代码已经更新，可以git pull最新的代码。</font></font></p>
+</li>
+</ul>
+<h2 tabindex="-1" dir="auto"><a id="user-content-license" class="anchor" aria-hidden="true" tabindex="-1" href="#license"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">执照</font></font></h2>
+<ul dir="auto">
+<li><a href="https://github.com/nocobase/nocobase/tree/main/packages/core"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">核心包</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">是</font></font><a href="/nocobase/nocobase/blob/main/LICENSE-APACHE-2.0"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Apache 2.0 许可的</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">。</font></font></li>
+<li><a href="https://github.com/nocobase/nocobase/tree/main/packages/plugins"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">插件包</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">已</font></font><a href="/nocobase/nocobase/blob/main/LICENSE-AGPL"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">获得 AGPL 3.0 许可</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">。</font></font></li>
+</ul>
+</article></div>
